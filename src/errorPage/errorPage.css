@@ -1,0 +1,15 @@
+.back_arrow_btn img{
+    height: 40px;
+}
+
+.back_arrow_btn{
+    padding: 10px 20px;
+}
+
+.error_gif img{
+    width: 50%;
+}
+
+.error_gif{
+    text-align: center;
+}

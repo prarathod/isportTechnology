@@ -1,0 +1,17 @@
+.label{
+    color: rgb(64, 210, 210);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.selct-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.selct-main > div > select{
+    height: 25px;
+
+}
+

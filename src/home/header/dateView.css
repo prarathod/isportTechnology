@@ -1,0 +1,17 @@
+.dates-main {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px auto;
+  }
+  
+  .dates-main > div {
+    background-color: #e7e3e3;
+    width: 100%;
+    margin: 5px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 10px;
+    font-weight: 500;
+  }

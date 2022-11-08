@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Home from './home/Home';
+import React, { useState } from 'react';
+import ErrorPage from './errorPage/ErrorPage'
+import BidPage from './bidingPage/BidPage';
+import { Switch, Route} from "react-router-dom";
 function App() {
+  const [selectedMatch, setSelectedMatch] = useState();
+  const GetSelectedMatchId = (data) => {
+    //setSelectedMatch(data);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      {/* <Home GetSelectedMatchId={GetSelectedMatchId}/>
+            </Route> */}
+      <Route path="/bidpage" component={BidPage} />
+      {/* <BidPage selectedMatch={selectedMatch}/>
+            </Route> */}
+      <Route path="/*" component={ErrorPage} />
+    </Switch>
   );
 }
 

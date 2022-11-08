@@ -1,0 +1,41 @@
+.Homebody-main{
+    margin: 10px;
+}
+
+.homebody-header{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-left: 20px;
+}
+.homebody-header > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.home-body-img{
+    height: 20px;
+    width: auto;
+}
+
+.homebody-body{
+    border: 1px solid rgb(5, 5, 5);
+    margin: 10px;
+    border-radius: 30px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.LeagueNameHeader{
+    font-size: 30px;
+    font-weight: 700;
+    background: rgb(210, 42, 50);
+    color: white;
+}
+
+.LeaguNeMatchesTime{
+    color: gray;
+    padding: 0px 10px;
+}

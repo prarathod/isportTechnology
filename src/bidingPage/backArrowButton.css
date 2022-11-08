@@ -1,0 +1,15 @@
+.back_arrow_btn img{
+    height: 40px;
+}
+
+.back_arrow_btn{
+    padding: 10px 20px;
+}
+
+.backArrowHeader{
+    background-color: rgb(255, 77, 0);
+    padding: 0.1px 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+}
